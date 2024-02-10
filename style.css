@@ -1,0 +1,106 @@
+
+body{
+    margin: 0px;
+    pad: 0px;
+    border: 0px;
+}
+/*nav styling*/
+header{
+    background-color: #1f2939;
+    width: auto;
+    height: 80%;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 0px;
+    
+}
+
+.header_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-bottom: 100px;
+
+}
+
+.header_nav a{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.header_nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    list-style-type: none;
+    
+}
+
+.header_nav ul li{
+    color: white;
+    font-size: 18px;
+}
+
+/*herro section styling*/
+.hero_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6%;
+    
+}
+
+.hero_section h1{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 32.16px 0px 0px 0px;
+}
+
+.hero_section p{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 0px;
+    padding-right: 70px;
+    margin-top: 5px;
+}
+
+.hero_section .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    height: auto;
+    width: 40%;
+}
+
+.hero_section .intro button{
+    width: 25%;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.hero_section .hero_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(113, 112, 117);
+    height: 250px;
+    width: 42%;
+    margin:0px;
+    color: white;
+}
+
+.hero_section .hero_img p{
+    margin: 0px;
+    padding: 0px;
+}
+
