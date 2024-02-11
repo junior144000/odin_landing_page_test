@@ -8,7 +8,7 @@ body{
 header{
     background-color: #1f2939;
     width: auto;
-    height: 80%;
+    height: 100%;
     padding-left: 9%;
     padding-right: 9%;
     margin-top: 0px;
@@ -45,7 +45,7 @@ header{
     font-size: 18px;
 }
 
-/*herro section styling*/
+/*hero section styling*/
 .hero_section{
     display: flex;
     flex-direction: row;
@@ -102,5 +102,130 @@ header{
 .hero_section .hero_img p{
     margin: 0px;
     padding: 0px;
+}
+
+/* main section css*/
+article{
+    
+}
+
+.illustration_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 90%;
+    width: auto;
+    
+}
+
+.illustration_container h2{
+    font-size: 36px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.illustration_container .illustration{
+    border: 2.5px solid #3882f6;
+    border-radius: 150x;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.illustration_container .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 9%;
+    margin: 40px 0px 150px 0px;
+    width: 82%;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.con p{
+    padding: 0px 40px ;
+}
+
+
+
+
+
+
+.text_container{
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.text_container p{
+    margin-top: 0px;
+}
+
+
+
+
+
+.cal_to_action_container{
+    padding: 0px 9%;
+
+}
+
+.cal_to_action_container .cal_to_action_container_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: white;
+    padding: 40px 80px;
+    margin-top: 70px;
+    
+}
+
+.cal_to_action_container .cal_to_action_container_div h5{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.cal_to_action_container button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2.5px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+footer{
+    background-color: #1f2937;
+    margin-top: 70px;
+}
+
+footer .copyright_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-emphasis: center;
+    color: white;
+    padding: 30px 0px;
+    font-size: 20px;
 }
 
